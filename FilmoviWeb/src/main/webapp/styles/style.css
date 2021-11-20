@@ -1,0 +1,52 @@
+@charset "ISO-8859-1";
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.center1 {
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 50%;
+}
+
+.errors{
+	color:red;
+	font-style:italic;
+}
+
+.center2 {
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
+  width: 80%;
+}
+
+.image{
+	margin-left:2%;
+	margin-right:2%;
+float:left;  
+}
+
+.login {
+	display: block;
+  margin-left: 50px;
+  margin-right: 50px;
+  width: 80%;
+}
+
+.main {
+	margin-top : 20px;
+  margin-left: 80px; /* Same as the width of the sidebar */
+  padding: 0px 0px;
+}
+
+.main1 {
+	margin-top : 70px;
+ /* Same as the width of the sidebar */
+  padding: 0px 0px;
+}

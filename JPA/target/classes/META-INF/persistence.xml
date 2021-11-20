@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_2.xsd">
+	<persistence-unit name="JPA" transaction-type="RESOURCE_LOCAL">
+		<class>model.Film</class>
+		<class>model.Filmovikorisnik</class>
+		<class>model.Filmoviuloga</class>
+		<class>model.Glumac</class>
+		<class>model.Kategorija</class>
+		<class>model.Ocena</class>
+		<class>model.Regostrovani</class>
+		<class>model.Uloga</class>
+		<class>model.Zanr</class>
+		<properties>
+			<property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/ris"/>
+			<property name="javax.persistence.jdbc.user" value="root"/>
+			<property name="javax.persistence.jdbc.password" value="Tamara999"/>
+			<property name="javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+		</properties>
+	</persistence-unit>
+</persistence>
